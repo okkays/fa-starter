@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ClubComponent } from './club/club.component';
+import { ExampleComponent } from './example/example.component';
 
 const routes: Routes = [
-  { path: 'club/:id', component: ClubComponent },
-  { path: '**', redirectTo: 'club/214176' },
+  { path: 'example/', component: ExampleComponent },
+  { path: '**', redirectTo: 'example/' },
 ];
 
 @NgModule({
