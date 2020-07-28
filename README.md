@@ -1,4 +1,4 @@
-# Example Angular-on-Flask starter.
+# Example Angular-on-Flask Starter
 
 To get started:
 
