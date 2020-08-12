@@ -20,4 +20,4 @@ To run in production mode:
 - Set FLASK_ENV to production in .env
 - `ng build --prod`
 - `npm start`
-- navigate to http://localhost:5000 (or whatever your flask instance is)
+- navigate to http://localhost:8000 (or whatever your flask instance is)
