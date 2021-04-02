@@ -1,0 +1,3 @@
+FLASK_ENV=development
+APP_SETTINGS=app.config.DevConfig
+EXAMPLEVAR=secret_value_like_external_api_key

@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+__pycache__/
 # Only exists if Bazel was run
 /bazel-out
 
@@ -22,6 +23,7 @@ speed-measure-plugin*.json
 *.launch
 .settings/
 *.sublime-workspace
+.vscode/
 
 # IDE - VSCode
 .vscode/*
@@ -30,6 +32,9 @@ speed-measure-plugin*.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+
+# python venv
+venv/
 
 # misc
 /.sass-cache
