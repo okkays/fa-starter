@@ -4,11 +4,15 @@ from flask import Blueprint, redirect, url_for, current_app
 blueprint = Blueprint('example', __name__)
 
 @blueprint.route('/')
-def index():
+def index_real():
   return redirect(url_for('example.hello'))
 
+@blueprint.route('/api/')
+def index():
+  return index_real()
 
-@blueprint.route('/hello')
+
+@blueprint.route('/api/hello')
 def hello():
   """Responds with hello.
   
