@@ -24,10 +24,18 @@ Now you can run the server locally:
 flask run
 ```
 
+configure flask and your backend variables in .flaskenv (see example.flaskenv)
+.flaskenv is BOTH
+
+- where you put your super secret flask backend stuff
+- where you configure
+
 ## Client setup
 
 you are probably going to want @angular/fire and firebase
-in my project i changed angular.json client/architecht/build/configurations/[prod|dev]/filereplacements['environment.ts'] to have a separate dev and prod env file for different firebase creds
+in my project i changed angular.json's
+client/architecht/build/configurations/[prod|dev]/filereplacements['environment.ts']
+to have a separate dev and prod env file for different firebase creds
 
 from the top
 

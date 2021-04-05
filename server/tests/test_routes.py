@@ -18,8 +18,8 @@ class TestRoutes(TestCase):
         self.test_ctx.pop()
 
     def test_hello(self):
-        """Tests /hello endpoint."""
-        url = '/hello'
+        """Tests /api/hello endpoint."""
+        url = '/api/hello'
         with current_app.test_client() as client:
             resp = client.get(url)
             self.assertEqual(resp.status_code, 200)
