@@ -25,7 +25,7 @@
     "@types/chart.js": "^2.9.23",
     "@types/underscore": "^1.10.15",
     "chart.js": "^2.9.3",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "rxjs": "^6.6.0",
     "tslib": "^2.0.0",
     "underscore": "^1.10.2",
