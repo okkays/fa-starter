@@ -7,5 +7,5 @@ import { Chart } from 'chart.js';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'client';
+  title = 'D&D 5th Edition Character Tutorial';
 }

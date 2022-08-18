@@ -8,10 +8,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
-import { ExampleComponent } from './example/example.component';
+import { HomeComponent } from './home/home.component';
+import { AppHeaderComponent } from './components/app-header.component';
 
 @NgModule({
-  declarations: [AppComponent, ExampleComponent],
+  declarations: [AppComponent, HomeComponent, AppHeaderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
