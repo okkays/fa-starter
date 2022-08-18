@@ -9,10 +9,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { HomeComponent } from './home/home.component';
-import { AppHeaderComponent } from './components/app-header.component';
+import { AppHeaderComponent } from './components/app-header/app-header.component';
+import { CharactersComponent } from './characters/characters.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AppHeaderComponent],
+  declarations: [AppComponent, HomeComponent, AppHeaderComponent, CharactersComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
