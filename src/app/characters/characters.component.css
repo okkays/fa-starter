@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+  }
+
+.add-button {
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.body {
+    text-align: center;
+}
